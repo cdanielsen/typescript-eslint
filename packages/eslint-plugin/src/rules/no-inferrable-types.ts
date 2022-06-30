@@ -22,7 +22,7 @@ export default util.createRule<Options, MessageIds>({
     fixable: 'code',
     messages: {
       noInferrableType:
-        'Type {{type}} trivially inferred from a {{type}} literal, remove type annotation.',
+        'Type {{type}} trivially inferred from a {{type}} literal, remove type annotation smart guy.',
     },
     schema: [
       {
